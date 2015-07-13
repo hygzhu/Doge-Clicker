@@ -54,7 +54,7 @@ public class Gui extends JFrame implements ActionListener {
 	public Gui() throws IOException {
 
 		// sets frame text and features
-		super("Doge Clicker 1.0");
+		super("Doge Clicker 2.0");
 		this.setIconImage(new ImageIcon("Images//doge.jpg").getImage());
 
 		// initializes sound files
@@ -399,7 +399,7 @@ public class Gui extends JFrame implements ActionListener {
 
 		// background image
 		JLabel background = new JLabel(new ImageIcon(
-				"Images//dogebackground.png"));
+				"Images//dogebackground.jpg"));
 		background.setBounds(0, 0, 1000, 700);
 		add(background);
 

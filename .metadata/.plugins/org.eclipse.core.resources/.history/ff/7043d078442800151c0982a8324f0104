@@ -76,7 +76,7 @@ public class Gui extends JFrame implements ActionListener {
 		title = new JLabel("Doge Clicker v1.0");
 		title.setBounds(0, 0, getWidth(), 40);
 		title.setFont(new Font("Comic Sans MS", Font.BOLD, 26));
-		title.setForeground(Color.white);
+		title.setForeground(Color.black);
 		title.setHorizontalAlignment(JLabel.CENTER);
 		add(title);
 
@@ -399,7 +399,7 @@ public class Gui extends JFrame implements ActionListener {
 
 		// background image
 		JLabel background = new JLabel(new ImageIcon(
-				"Images//dogebackground.png"));
+				"Images//dogebackground.jpg"));
 		background.setBounds(0, 0, 1000, 700);
 		add(background);
 

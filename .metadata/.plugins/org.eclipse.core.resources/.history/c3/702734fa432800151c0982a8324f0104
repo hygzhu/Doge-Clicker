@@ -399,7 +399,7 @@ public class Gui extends JFrame implements ActionListener {
 
 		// background image
 		JLabel background = new JLabel(new ImageIcon(
-				"Images//dogebackground.png"));
+				"Images//dogebackground.jpg"));
 		background.setBounds(0, 0, 1000, 700);
 		add(background);
 
