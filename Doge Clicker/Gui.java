@@ -81,7 +81,7 @@ public class Gui extends JFrame implements ActionListener {
 		add(title);
 
 		// reads news.txt to have import text to array
-		String filePath = "Data\\news.txt";
+		String filePath = "news.txt";
 		BufferedReader fileIn = new BufferedReader(new FileReader(filePath));
 		for (int i = 0; i < line.length; i++) {
 
@@ -92,7 +92,7 @@ public class Gui extends JFrame implements ActionListener {
 		fileIn.close();// close file
 
 		// read flavor text.txt to import text to array
-		filePath = "Data\\flavourtext.txt";
+		filePath = "flavourtext.txt";
 		fileIn = new BufferedReader(new FileReader(filePath));
 		for (int i = 0; i < flavourText.length; i++) {
 
