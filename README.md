@@ -1,6 +1,12 @@
 # java-incremental-game
 School project completed June 2014
 
+# Usage
+```
+make
+make run
+```
+
 Background
 Doge is an internet slang for dog that circulated around the internet late 2013 that became an internet meme. 
 It is associated with pictures of Shiba Inus, a dog breed, accompanied by colourful text in Comic Sans Ms which is 

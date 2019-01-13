@@ -3,6 +3,3 @@ default:
 
 run:
 	java -cp bin/ Main
-
-clean:
-	rm *.class
